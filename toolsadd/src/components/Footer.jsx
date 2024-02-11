@@ -2,23 +2,23 @@ import styled from "styled-components";
 import github from "../assets/footer-assets/github-logo.svg";
 
 const FooterContainer = styled.div`
-position: fixed;
-bottom: 0;
-width: 100%;
-min-height: auto;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: black;
-border-top: 1px teal solid;
-`
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-top: 1px rgba(255, 255, 255, 0.5) solid;
+`;
 
 const GithubLogo = styled.div`
   width: 1rem;
   height: 1rem;
   background-image: url(${github});
   background-size: contain;
-  background-color: teal;
+  background-color: rgba(255, 255, 255, 1);
   cursor: pointer;
   margin-right: 1rem;
   border-radius: 50%;
@@ -32,7 +32,7 @@ const Footer = () => {
       <a href={githubUrl} target="_blank" rel="noopener noreferrer">
         <GithubLogo />
       </a>
-      <p style={{ color: "teal", fontSize: "0.7rem" }}> © BertoRamosM</p>
+      <p style={{ fontSize: "0.7rem" }}> © BertoRamosM</p>
     </FooterContainer>
   );
 }

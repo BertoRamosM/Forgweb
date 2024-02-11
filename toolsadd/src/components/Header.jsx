@@ -27,11 +27,10 @@ const HeaderContainer = styled.div`
   flex-wrap: wrap;
   width: 100%;
   min-height: auto;
-  border-bottom: 3px solid teal;
-  justify-content: space-around;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+  justify-content: center;
   padding-bottom: 2rem;
   padding-top: 2rem;
- 
 `;
 
 const Button = styled.button`
@@ -41,7 +40,7 @@ const Button = styled.button`
   color: white;
   font-size: 1.2em;
   margin: 0.4rem;
-  padding: 0.2em 1em;
+  padding: 0.2em;
   border-radius: 10px;
   min-width: 12rem;
   height: 2rem;
@@ -61,6 +60,27 @@ const Icons = styled.img`
   color: white;
   filter: invert(98%) sepia(79%) saturate(0%) hue-rotate(86deg)
     brightness(100%) contrast(119%);
+`;
+
+const SmallIcon = styled.img`
+  filter: invert(98%) sepia(79%) saturate(0%) hue-rotate(86deg) brightness(0%)
+    contrast(100%);
+`;
+
+const Current = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 50;
+  bottom: -20px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 4rem;
+  height: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 `;
 
 const Header = () => {
@@ -109,6 +129,9 @@ const Header = () => {
           {category}
         </Button>
       ))}
+      <Current>
+        <SmallIcon src={eval(`${currentCat}Icon`)} />
+      </Current>
     </HeaderContainer>
   );
 };
