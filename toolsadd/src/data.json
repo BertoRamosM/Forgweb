@@ -1,0 +1,104 @@
+{
+  "Icons": [
+    {
+      "title": "Iconify",
+      "image": "#",
+      "category": "icons",
+      "license": "Multiple"
+    },
+    {
+      "title": "Google icons",
+      "image": "#",
+      "category": "icons",
+      "license": "Apache"
+    }
+  ],
+  "Photos": [
+    {
+      "title": "Pexels",
+      "image": "#",
+      "category": "photos",
+      "license": "License Type"
+    }
+  ],
+  "Tools": [
+    {
+      "title": "Squoosh",
+      "image": "Illustration Image URL",
+      "category": "tools",
+      "license": "License Type"
+    }
+  ],
+  "Illustrations": [
+    {
+      "title": "Open Peeps",
+      "image": "Illustration Image URL",
+      "category": "illustrations",
+      "license": "License Type"
+    }
+  ],
+  "Fonts": [
+    {
+      "title": "Google Fonts",
+      "image": "Illustration Image URL",
+      "category": "fonts",
+      "license": "License Type"
+    }
+  ],
+  "Colors": [
+    {
+      "title": "Ai Colors",
+      "image": "Illustration Image URL",
+      "category": "colors",
+      "license": "License Type"
+    }
+  ],
+  "Videos": [
+    {
+      "title": "Videezy",
+      "image": "Illustration Image URL",
+      "category": "videos",
+      "license": "License Type"
+    }
+  ],
+  "Libraries": [
+    {
+      "title": "useHooks",
+      "image": "Illustration Image URL",
+      "category": "libraries",
+      "license": "License Type"
+    }
+  ],
+  "Blogs": [
+    {
+      "title": "Web Dev",
+      "image": "Illustration Image URL",
+      "category": "Illustrations",
+      "license": "License Type"
+    }
+  ],
+  "Backgrounds": [
+    {
+      "title": "Pattern Generator",
+      "image": "Illustration Image URL",
+      "category": "background",
+      "license": "License Type"
+    }
+  ],
+  "UIcollections": [
+    {
+      "title": "Dark Design",
+      "image": "Illustration Image URL",
+      "category": "UI",
+      "license": "License Type"
+    }
+  ],
+  "Components": [
+    {
+      "title": "Next UI",
+      "image": "Illustration Image URL",
+      "category": "components",
+      "license": "License Type"
+    }
+  ]
+}
