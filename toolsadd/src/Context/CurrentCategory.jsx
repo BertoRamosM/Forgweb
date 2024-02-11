@@ -4,7 +4,7 @@ import { createContext } from "react";
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-  const [currentCat, setCurrentCat] = useState('icons')
+  const [currentCat, setCurrentCat] = useState('Icons')
 
   return (
     <AppContext.Provider value={[currentCat, setCurrentCat]}>

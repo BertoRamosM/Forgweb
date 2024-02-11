@@ -8,10 +8,10 @@ const GalleryContainer = styled.div`
   height: auto;
   padding-top: 15%;
   padding-left: 10%;
-  padding-bottom:10%;
+  padding-bottom: 10%;
   display: grid;
-  gap: 1.5rem;
-  grid-auto-rows: 10rem;
+  gap: 0.5rem;
+  grid-auto-rows: auto;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   overflow: auto;
 `;

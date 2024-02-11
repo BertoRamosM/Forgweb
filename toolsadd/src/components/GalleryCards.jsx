@@ -5,8 +5,11 @@ const Card = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
+flex-direction: column;
 background-color: black;
-height: 11rem;
+height: auto;
+border: 1px solid teal;
+width: 15rem;
 `
 
 const Title = styled.h2`
@@ -19,18 +22,20 @@ const GalleryCard = ({ data }) => {
   console.log(data);
   console.log(currentCat);
 
+  const itemsForCurrentCat = data[currentCat] || [];
+
   return (
     <>
-      <Card>
-        {data[currentCat]?.map((item, index) => (
-          <div key={index}>
+      <div>
+        {itemsForCurrentCat.map((item, index) => (
+          <Card key={index}>
             <p>image</p>
             <Title>{item.title}</Title>
             <p>{item.category}</p>
             <p>{item.license}</p>
-          </div>
+          </Card>
         ))}
-      </Card>
+      </div>
     </>
   );
 };

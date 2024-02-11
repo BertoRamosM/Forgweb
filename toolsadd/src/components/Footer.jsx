@@ -10,11 +10,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: black;
+border-top: 1px teal solid;
 `
 
 const GithubLogo = styled.div`
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1rem;
+  height: 1rem;
   background-image: url(${github});
   background-size: contain;
   background-color: teal;
@@ -31,7 +32,7 @@ const Footer = () => {
       <a href={githubUrl} target="_blank" rel="noopener noreferrer">
         <GithubLogo />
       </a>
-      <p style={{ color: "teal" }}> © BertoRamosM</p>
+      <p style={{ color: "teal", fontSize: "0.7rem" }}> © BertoRamosM</p>
     </FooterContainer>
   );
 }
