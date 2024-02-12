@@ -71,6 +71,20 @@
        "category": "photos",
        "license": "Barnimages",
        "link": "https://barnimages.com/"
+     },
+     {
+       "title": "Unsplash",
+       "image": "src/assets/cards-assets/Unsplash.png",
+       "category": "photos",
+       "license": "Unsplash",
+       "link": "https://unsplash.com/"
+     },
+     {
+       "title": "Picography",
+       "image": "src/assets/cards-assets/Picography.png",
+       "category": "photos",
+       "license": "Picography",
+       "link": "https://picography.co/"
      }
   ],
   "Tools": [
@@ -87,6 +101,13 @@
       "category": "tools",
       "license": "NekoCalc",
       "link": "https://nekocalc.com/px-to-rem-converter"
+    },
+    {
+      "title": "RapidApi",
+      "image": "src/assets/cards-assets/RapidApi.png",
+      "category": "tools",
+      "license": "RapidApi",
+      "link": "https://rapidapi.com/collections"
     }
   ],
   "Illustrations": [
