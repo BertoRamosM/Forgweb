@@ -9,7 +9,7 @@ const Card = styled.div`
   flex-direction: column;
   background-color: ;
   height: 20rem;
-  width: 22rem;
+  width: 21rem;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
   position: relative;
   border-radius: 10px;
@@ -24,7 +24,7 @@ const Card = styled.div`
 
 const CardImg = styled.img`
   height: 15rem;
-  width: 22rem;
+  width: 21rem;
   position: absolute;
   top: 1px;
   left:0;

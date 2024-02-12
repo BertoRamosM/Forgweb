@@ -27,6 +27,27 @@
       "category": "icons",
       "license": "Tabler",
       "link": "https://tablet.io/"
+    },
+    {
+      "title": "Free Icons",
+      "image": "src/assets/cards-assets/Free Icons.png",
+      "category": "icons",
+      "license": "Icons Designer",
+      "link": "https://freeicons.io/"
+    },
+    {
+      "title": "Flaticon",
+      "image": "src/assets/cards-assets/Flaticon.png",
+      "category": "icons",
+      "license": "Flaticon",
+      "link": "https://www.flaticon.com/free-icons/best"
+    },
+    {
+      "title": "Simple Icons",
+      "image": "src/assets/cards-assets/Simple Icons.png",
+      "category": "icons",
+      "license": "Simple Icons",
+      "link": "https://simpleicons.org/"
     }
   ],
   "Photos": [

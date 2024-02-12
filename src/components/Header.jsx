@@ -68,6 +68,7 @@ const Icons = styled.img`
 const SmallIcon = styled.img`
   filter: invert(98%) sepia(79%) saturate(0%) hue-rotate(86deg) brightness(0%)
     contrast(100%);
+    padding-right:1rem;
 `;
 
 const Current = styled.div`
@@ -78,7 +79,7 @@ const Current = styled.div`
   right: 50;
   bottom: -20px;
   background-color: rgba(255, 255, 255, 1);
-  width: 4rem;
+  width: auto;
   height: 2rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -133,6 +134,7 @@ const Header = () => {
         </Button>
       ))}
       <Current>
+        <h2 style={{color:'black', fontSize: "1rem", paddingRight: "1rem", paddingLeft: "1rem"}}>{currentCat}</h2>
         <SmallIcon src={eval(`${currentCat}Icon`)} />
       </Current>
     </HeaderContainer>

@@ -10,9 +10,9 @@ const GalleryContainer = styled.div`
   padding-left: 1%;
   padding-bottom: 10%;
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
   grid-auto-rows: auto;
-  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
   overflow: auto;
   background-color: black;
 `;
