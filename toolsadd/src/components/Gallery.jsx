@@ -7,12 +7,12 @@ const GalleryContainer = styled.div`
   width: 99vw;
   height: auto;
   padding-top: 15%;
-  padding-left: 2%;
+  padding-left: 1%;
   padding-bottom: 10%;
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
   grid-auto-rows: auto;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
   overflow: auto;
   background-color: black;
 `;

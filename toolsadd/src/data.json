@@ -13,110 +13,151 @@
       "category": "icons",
       "license": "Google",
       "link": "https://fonts.google.com/icons"
+    },
+    {
+      "title": "Hero Icons",
+      "image": "src/assets/cards-assets/Hero Icons.png",
+      "category": "icons",
+      "license": "Tailwind Labs",
+      "link": "https://heroicons.com/"
+    },
+    {
+      "title": "Tabler",
+      "image": "src/assets/cards-assets/Tabler.png",
+      "category": "icons",
+      "license": "Tabler",
+      "link": "https://tablet.io/"
     }
   ],
   "Photos": [
     {
       "title": "Pexels",
-      "image": "#",
+      "image": "src/assets/cards-assets/Pexels.png",
       "category": "photos",
-      "license": "License Type"
+      "license": "CO0",
+      "link": "https://www.pexels.com/"
     }
   ],
   "Tools": [
     {
       "title": "Squoosh",
-      "image": "Illustration Image URL",
+      "image": "src/assets/cards-assets/Squoosh.png",
       "category": "tools",
-      "license": "License Type"
+      "license": "Apache",
+      "link": "https://squoosh.app/"
+    },
+    {
+      "title": "NekoCalc",
+      "image": "src/assets/cards-assets/NekoCalc.png",
+      "category": "tools",
+      "license": "NekoCalc",
+      "link": "https://nekocalc.com/px-to-rem-converter"
     }
   ],
   "Illustrations": [
     {
       "title": "Open Peeps",
-      "image": "Illustration Image URL",
+      "image": "src/assets/cards-assets/Open Peeps.png",
       "category": "illustrations",
-      "license": "License Type"
+      "license": "CO0",
+      "link": "https://www.openpeeps.com/"
     }
   ],
   "Fonts": [
     {
       "title": "Google Fonts",
-      "image": "Illustration Image URL",
+      "image": "src/assets/cards-assets/Google Fonts.png",
       "category": "fonts",
-      "license": "License Type"
+      "license": "Google",
+      "link": "https://fonts.google.com/"
     }
   ],
   "Colors": [
     {
       "title": "Ai Colors",
-      "image": "Illustration Image URL",
+      "image": "src/assets/cards-assets/Ai Colors.png",
       "category": "colors",
-      "license": "License Type"
+      "license": "Unknown",
+      "link": "https://aicolors.co/"
     }
   ],
   "Videos": [
     {
       "title": "Videezy",
-      "image": "Illustration Image URL",
+      "image": "src/assets/cards-assets/Videezy.png",
       "category": "videos",
-      "license": "License Type"
+      "license": "videezy",
+      "link": "https://es.videezy.com/"
     }
   ],
   "Libraries": [
     {
       "title": "useHooks",
-      "image": "Illustration Image URL",
+      "image": "src/assets/cards-assets/useHooks.png",
       "category": "libraries",
-      "license": "License Type"
+      "license": "ui.dev",
+      "links": "https://usehooks.com/"
+    },
+    {
+      "title": "Tailwind",
+      "image": "src/assets/cards-assets/Tailwind.png",
+      "category": "libraries",
+      "license": "Tailwind Labs",
+      "link": "https://tailwindcss.com/"
     }
   ],
   "Blogs": [
     {
-      "title": "Web Dev",
-      "image": "Illustration Image URL",
-      "category": "Illustrations",
-      "license": "License Type"
+      "title": "web dev",
+      "image": "src/assets/cards-assets/web dev.png",
+      "category": "blogs",
+      "license": "Chrome team",
+      "link": "https://web.dev/blog"
     }
   ],
   "Backgrounds": [
     {
       "title": "Pattern Generator",
-      "image": "Illustration Image URL",
+      "image": "src/assets/cards-assets/Pattern Generator.png",
       "category": "background",
-      "license": "License Type"
+      "license": "Doodad",
+      "link": "https://doodad.dev/pattern-generator/"
     }
   ],
   "UIcollections": [
     {
       "title": "Dark Design",
-      "image": "Illustration Image URL",
+      "image": "src/assets/cards-assets/Dark Design.png",
       "category": "UI",
-      "license": "License Type"
+      "license": "Dark",
+      "link": "https://www.dark.design/"
     }
   ],
   "Components": [
     {
       "title": "Next UI",
-      "image": "Illustration Image URL",
+      "image": "src/assets/cards-assets/Next UI.png",
       "category": "components",
-      "license": "License Type"
+      "license": "MIT",
+      "link": "https://nextui.org/"
     }
   ],
   "Cheatsheets": [
     {
-      "title": "Pexels",
-      "image": "#",
-      "category": "photos",
-      "license": "License Type"
+      "title": "Flexbox CS",
+      "image": "src/assets/cards-assets/Flexbox CS.png",
+      "category": "cheatsheets",
+      "license": "@simonpaix",
+      "link":"https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fvd9dc7wfk9471.png"
     }
   ],
   "Tutorials": [
     {
-      "title": "Pexels",
-      "image": "#",
-      "category": "photos",
-      "license": "License Type"
+      "title": "NetNinja",
+      "image": "src/assets/cards-assets/NetNinja.png",
+      "category": "Tutorials",
+      "license": "Net Ninja",
+      "link": "https://netninja.dev/"
     }
   ]
 }

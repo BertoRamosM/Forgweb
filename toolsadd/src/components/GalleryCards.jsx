@@ -8,8 +8,8 @@ const Card = styled.div`
   align-items: center;
   flex-direction: column;
   background-color: ;
-  height: 17rem;
-  width: 20rem;
+  height: 20rem;
+  width: 22rem;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
   position: relative;
   border-radius: 10px;
@@ -23,13 +23,13 @@ const Card = styled.div`
 `;
 
 const CardImg = styled.img`
-  height: 12rem;
-  width: 20rem;
+  height: 15rem;
+  width: 22rem;
   position: absolute;
-  top: 0;
+  top: 1px;
   left:0;
   border-radius: 10px;
-  background-size: cover;
+  object-fit: cover;
 `;
 
 const Title = styled.h2`
