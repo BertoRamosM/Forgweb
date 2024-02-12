@@ -16,6 +16,8 @@ import PhotosIcon from "../assets/header-assets/Photos.svg";
 import ToolsIcon from "../assets/header-assets/Tools.svg";
 import UIcollectionsIcon from "../assets/header-assets/UIcollections.svg";
 import VideosIcon from "../assets/header-assets/Videos.svg";
+import CheatsheetsIcon from "../assets/header-assets/Cheatsheets.svg";
+import TutorialsIcon from "../assets/header-assets/Tutorials.svg";
 
 
 
@@ -31,6 +33,7 @@ const HeaderContainer = styled.div`
   justify-content: center;
   padding-bottom: 2rem;
   padding-top: 2rem;
+  z-index:99;
 `;
 
 const Button = styled.button`
@@ -122,7 +125,7 @@ const Header = () => {
       {uniqueCategories.map((category, index) => (
         <Button
           key={category}
-          color={colors[index]}
+          color={colors[index % colors.length]}
           onClick={() => handleButtonClick(category)}
         >
           <Icons src={eval(`${category}Icon`)} alt={`${category} Icon`} />{" "}

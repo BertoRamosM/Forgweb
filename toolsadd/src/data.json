@@ -2,56 +2,17 @@
   "Icons": [
     {
       "title": "Iconify",
-      "image": "#",
+      "image": "src/assets/cards-assets/Iconify.png",
       "category": "icons",
-      "license": "Multiple"
+      "license": "Apache",
+      "link": "https://iconify.design/"
     },
     {
       "title": "Google icons",
-      "image": "#",
+      "image": "src/assets/cards-assets/Google icons.png",
       "category": "icons",
-      "license": "Apache"
-    },
-    {
-      "title": "Iconify",
-      "image": "#",
-      "category": "icons",
-      "license": "Multiple"
-    },{
-      "title": "Iconify",
-      "image": "#",
-      "category": "icons",
-      "license": "Multiple"
-    },{
-      "title": "Iconify",
-      "image": "#",
-      "category": "icons",
-      "license": "Multiple"
-    },{
-      "title": "Iconify",
-      "image": "#",
-      "category": "icons",
-      "license": "Multiple"
-    },{
-      "title": "Iconify",
-      "image": "#",
-      "category": "icons",
-      "license": "Multiple"
-    },{
-      "title": "Iconify",
-      "image": "#",
-      "category": "icons",
-      "license": "Multiple"
-    },{
-      "title": "Iconify",
-      "image": "#",
-      "category": "icons",
-      "license": "Multiple"
-    },{
-      "title": "Iconify",
-      "image": "#",
-      "category": "icons",
-      "license": "Multiple"
+      "license": "Google",
+      "link": "https://fonts.google.com/icons"
     }
   ],
   "Photos": [
@@ -139,6 +100,22 @@
       "title": "Next UI",
       "image": "Illustration Image URL",
       "category": "components",
+      "license": "License Type"
+    }
+  ],
+  "Cheatsheets": [
+    {
+      "title": "Pexels",
+      "image": "#",
+      "category": "photos",
+      "license": "License Type"
+    }
+  ],
+  "Tutorials": [
+    {
+      "title": "Pexels",
+      "image": "#",
+      "category": "photos",
       "license": "License Type"
     }
   ]
