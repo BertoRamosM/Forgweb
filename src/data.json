@@ -57,7 +57,21 @@
       "category": "photos",
       "license": "CO0",
       "link": "https://www.pexels.com/"
-    }
+    },
+    {
+      "title": "Pixabay",
+      "image": "src/assets/cards-assets/Pixabay.png",
+      "category": "photos",
+      "license": "Pixabay",
+      "link": "https://pixabay.com/es/"
+    },
+     {
+       "title": "Barnimages",
+       "image": "src/assets/cards-assets/Barnimages.png",
+       "category": "photos",
+       "license": "Barnimages",
+       "link": "https://barnimages.com/"
+     }
   ],
   "Tools": [
     {
