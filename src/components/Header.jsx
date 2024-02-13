@@ -1,13 +1,12 @@
 import { useState } from "react";
 import styled from "styled-components";
-import data from "../data.json"
-import { useAppContext } from '../Context/CurrentCategory'
+import data from "../data.json";
+import { useAppContext } from "../Context/CurrentCategory";
 import { useColorContext } from "../Context/ColorMode";
 
-
 //icons
-import BackgroundsIcon from "../assets/header-assets/Backgrounds.svg"
-import BlogsIcon from "../assets/header-assets/Blogs.svg"
+import BackgroundsIcon from "../assets/header-assets/Backgrounds.svg";
+import BlogsIcon from "../assets/header-assets/Blogs.svg";
 import ColorsIcon from "../assets/header-assets/Colors.svg";
 import ComponentsIcon from "../assets/header-assets/Components.svg";
 import FontsIcon from "../assets/header-assets/Fonts.svg";
@@ -20,8 +19,6 @@ import UIcollectionsIcon from "../assets/header-assets/UIcollections.svg";
 import VideosIcon from "../assets/header-assets/Videos.svg";
 import CheatsheetsIcon from "../assets/header-assets/Cheatsheets.svg";
 import TutorialsIcon from "../assets/header-assets/Tutorials.svg";
-
-
 
 const HeaderContainer = styled.div`
   position: fixed;
@@ -63,8 +60,8 @@ const Icons = styled.img`
   height: 2rem;
   margin-right: 1rem;
   color: white;
-  filter: invert(98%) sepia(79%) saturate(0%) hue-rotate(86deg)
-    brightness(100%) contrast(119%);
+  filter: invert(98%) sepia(79%) saturate(0%) hue-rotate(86deg) brightness(100%)
+    contrast(119%);
 `;
 
 const SmallIcon = styled.img`
@@ -83,49 +80,37 @@ const Current = styled.div`
   right: 50;
   bottom: -20px;
   background-color: var(--primary-color);
-  width: auto;
+  min-width: auto;
   height: 2rem;
   border: 1px solid var(--secondary-color);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 10px;
 `;
 
 const Header = () => {
-
-
   const [currentCat, setCurrentCat] = useAppContext();
-  
+  const [currentMode] = useColorContext();
 
   const handleButtonClick = (category) => {
-    setCurrentCat((prevCat) => {
-      return category;
-    });
+    setCurrentCat(category);
   };
 
-    const [currentMode] = useColorContext();
+  const categories = Object.keys(data);
+  const colors = [
+    "#0000FF",
+    "#FF0000",
+    "#008000",
+    "#FFA500",
+    "#008080",
+    "#FF3385",
+    "#800080",
+    "#C133FF",
+    "#FF5733",
+    "#DC143C",
+    "#5733FF",
+    "#006400",
+  ];
 
-
-  const categories = Object.keys(data)
-    const colors = [
-      "#0000FF", 
-      "#FF0000",
-      "#008000",
-      "#FFA500",
-      "#008080", 
-      "#FF3385",
-      "#800080", 
-      "#C133FF", 
-      "#FF5733", 
-      "#DC143C", 
-      "#5733FF", 
-      "#006400", 
-    ];
-
-
-    const uniqueCategories = Array.from(new Set(categories));
-
+  const uniqueCategories = Array.from(new Set(categories));
 
   return (
     <HeaderContainer>
@@ -135,8 +120,7 @@ const Header = () => {
           color={colors[index % colors.length]}
           onClick={() => handleButtonClick(category)}
         >
-          <Icons src={eval(`${category}Icon`)} alt={`${category} Icon`} />{" "}
-          {category}
+          <Icons src={getIcon(category)} alt={`${category} Icon`} /> {category}
         </Button>
       ))}
       <Current>
@@ -150,10 +134,46 @@ const Header = () => {
         >
           {currentCat}
         </h2>
-        <SmallIcon src={eval(`${currentCat}Icon`)} />
+        <SmallIcon src={getIcon(currentCat)} />
       </Current>
     </HeaderContainer>
   );
+};
+
+
+const getIcon = (category) => {
+  switch (category) {
+    case "Backgrounds":
+      return BackgroundsIcon;
+    case "Blogs":
+      return BlogsIcon;
+    case "Colors":
+      return ColorsIcon;
+    case "Components":
+      return ComponentsIcon;
+    case "Fonts":
+      return FontsIcon;
+    case "Icons":
+      return IconsIcon;
+    case "Illustrations":
+      return IllustrationsIcon;
+    case "Libraries":
+      return LibrariesIcon;
+    case "Photos":
+      return PhotosIcon;
+    case "Tools":
+      return ToolsIcon;
+    case "UIcollections":
+      return UIcollectionsIcon;
+    case "Videos":
+      return VideosIcon;
+    case "Cheatsheets":
+      return CheatsheetsIcon;
+    case "Tutorials":
+      return TutorialsIcon;
+    default:
+      return null;
+  }
 };
 
 export default Header;
