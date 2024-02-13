@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { useAppContext } from "../Context/CurrentCategory";
+import { useColorContext } from "../Context/ColorMode";
 
 
 const Card = styled.div`
@@ -10,7 +11,6 @@ const Card = styled.div`
   background-color: var(--secondary-color);
   height: 20rem;
   width: 21rem;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
   position: relative;
   border-radius: 10px;
   cursor: pointer;
@@ -20,6 +20,11 @@ const Card = styled.div`
     transform: scale(1.1);
     text-decoration: underline;
   }
+
+  box-shadow: ${(props) =>
+    props.currentMode === "light"
+      ? "0px 10px 10px rgba(0, 0, 0, 1)"
+      : "0px 0px 10px rgba(255, 255, 255, 1)"};
 `;
 
 const CardImg = styled.img`
@@ -61,8 +66,8 @@ const License = styled.div`
 const GalleryCard = ({ data }) => {
   const [currentCat] = useAppContext();
 
-  console.log(data);
-  console.log(currentCat);
+      const [currentMode] = useColorContext();
+
 
   const itemsForCurrentCat = data[currentCat] || [];
 

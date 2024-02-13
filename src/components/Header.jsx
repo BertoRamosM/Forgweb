@@ -70,8 +70,8 @@ const Icons = styled.img`
 const SmallIcon = styled.img`
   filter: ${(props) =>
     props.theme.currentMode === "light"
-      ? "invert(98%) sepia(79%) saturate(0%) hue-rotate(86deg) brightness(0%) contrast(100%)"
-      : "brightness(100%) contrast(100%)"};
+      ? "invert(100%) sepia(79%) saturate(100%) hue-rotate(100deg) brightness(500%) contrast(100%)"
+      : "invert(100%) sepia(100%) saturate(100%) hue-rotate(86deg) brightness(50%) contrast(100%)"};
   padding-right: 1rem;
 `;
 

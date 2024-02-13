@@ -14,7 +14,7 @@ const FooterContainer = styled.div`
   justify-content: center;
   align-items: center;
   background-color: black;
-  border-top: 1px rgba(255, 255, 255, 0.5) solid;
+  border-top: 1px rgba(255, 255, 255, 1) solid;
 `;
 
 const GithubLogo = styled.div`

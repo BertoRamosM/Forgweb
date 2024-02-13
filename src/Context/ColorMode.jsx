@@ -3,7 +3,7 @@ import { useContext, useState, createContext } from "react";
 const ColorContext = createContext();
 
 export const ColorProvider = ({ children }) => {
-  const [currentMode, setCurrentMode] = useState("dark");
+  const [currentMode, setCurrentMode] = useState("light");
 
   return (
     <ColorContext.Provider value={[currentMode, setCurrentMode]}>

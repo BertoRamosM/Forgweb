@@ -8,7 +8,6 @@ const GlobalStyles = createGlobalStyle`
       props.currentMode === "light" ? "white" : "black"};
     --secondary-color: ${(props) =>
       props.currentMode === "light" ? "black" : "white"};
-    /* Define other global variables as needed */
   }
 `;
 
