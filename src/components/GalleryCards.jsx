@@ -7,10 +7,10 @@ const Card = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: ;
+  background-color: var(--secondary-color);
   height: 20rem;
   width: 21rem;
-  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
   position: relative;
   border-radius: 10px;
   cursor: pointer;
@@ -26,32 +26,36 @@ const CardImg = styled.img`
   height: 15rem;
   width: 21rem;
   position: absolute;
-  top: 1px;
-  left:0;
+  top: 0;
+  left: 0;
   border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
   object-fit: cover;
 `;
 
 const Title = styled.h2`
-color: white;
-position: absolute;
-bottom: 0;
-left: 0;
-margin-bottom: 1rem;
-margin-left: 1rem;
-`
+  color: var(--primary-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+`;
 
 
 const License = styled.div`
-position: absolute;
-bottom: 0;
-right: 0;
-margin-bottom: 1rem;
-margin-right: 1rem;
-background-color: blue;
-color: white;
-border-radius: 5px;
-padding: 0.3rem;`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 5px;
+  padding: 0.3rem;
+`;
 
 
 const GalleryCard = ({ data }) => {

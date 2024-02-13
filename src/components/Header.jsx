@@ -1,7 +1,9 @@
 import { useState } from "react";
 import styled from "styled-components";
 import data from "../data.json"
-import {useAppContext} from '../Context/CurrentCategory'
+import { useAppContext } from '../Context/CurrentCategory'
+import { useColorContext } from "../Context/ColorMode";
+
 
 //icons
 import BackgroundsIcon from "../assets/header-assets/Backgrounds.svg"
@@ -23,17 +25,17 @@ import TutorialsIcon from "../assets/header-assets/Tutorials.svg";
 
 const HeaderContainer = styled.div`
   position: fixed;
-  background-color: black;
+  background-color: var(--primary-color);
   top: 0;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   min-height: auto;
-  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 3px solid var(--secondary-color);
   justify-content: center;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  z-index:99;
+  z-index: 99;
 `;
 
 const Button = styled.button`
@@ -66,9 +68,11 @@ const Icons = styled.img`
 `;
 
 const SmallIcon = styled.img`
-  filter: invert(98%) sepia(79%) saturate(0%) hue-rotate(86deg) brightness(0%)
-    contrast(100%);
-    padding-right:1rem;
+  filter: ${(props) =>
+    props.theme.currentMode === "light"
+      ? "invert(98%) sepia(79%) saturate(0%) hue-rotate(86deg) brightness(0%) contrast(100%)"
+      : "brightness(100%) contrast(100%)"};
+  padding-right: 1rem;
 `;
 
 const Current = styled.div`
@@ -78,9 +82,10 @@ const Current = styled.div`
   position: absolute;
   right: 50;
   bottom: -20px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: var(--primary-color);
   width: auto;
   height: 2rem;
+  border: 1px solid var(--secondary-color);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -95,10 +100,12 @@ const Header = () => {
 
   const handleButtonClick = (category) => {
     setCurrentCat((prevCat) => {
-      console.log(category); 
       return category;
     });
   };
+
+    const [currentMode] = useColorContext();
+
 
   const categories = Object.keys(data)
     const colors = [
@@ -116,7 +123,6 @@ const Header = () => {
       "#006400", 
     ];
 
-  
 
     const uniqueCategories = Array.from(new Set(categories));
 
@@ -134,7 +140,16 @@ const Header = () => {
         </Button>
       ))}
       <Current>
-        <h2 style={{color:'black', fontSize: "1rem", paddingRight: "1rem", paddingLeft: "1rem"}}>{currentCat}</h2>
+        <h2
+          style={{
+            color: "var(--secondary-color)",
+            fontSize: "1rem",
+            paddingRight: "1rem",
+            paddingLeft: "1rem",
+          }}
+        >
+          {currentCat}
+        </h2>
         <SmallIcon src={eval(`${currentCat}Icon`)} />
       </Current>
     </HeaderContainer>

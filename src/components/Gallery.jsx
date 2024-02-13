@@ -14,7 +14,7 @@ const GalleryContainer = styled.div`
   grid-auto-rows: auto;
   grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
   overflow: auto;
-  background-color: black;
+  background-color: var(--primary-color);
 `;
 
 

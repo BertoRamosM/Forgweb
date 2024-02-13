@@ -1,5 +1,9 @@
 import styled from "styled-components";
 import github from "../assets/footer-assets/github-logo.svg";
+import { useColorContext } from "../Context/ColorMode";
+
+import sun from "../assets/footer-assets/sun.svg"
+import moon from "../assets/footer-assets/moon.svg";
 
 const FooterContainer = styled.div`
   position: fixed;
@@ -20,20 +24,43 @@ const GithubLogo = styled.div`
   background-size: contain;
   background-color: rgba(255, 255, 255, 1);
   cursor: pointer;
-  margin-right: 1rem;
+  margin-right: 2rem;
   border-radius: 50%;
   padding: 0.2rem;
 `;
 
+const ModeIcon = styled.img`
+  cursor: pointer;
+  filter: invert(98%) sepia(79%) saturate(0%) hue-rotate(86deg) brightness(100%)
+    contrast(119%);
+    padding-left:2rem;
+    width:1.5rem;
+`;
+
 const Footer = () => {
+  const [currentMode, setCurrentMode] = useColorContext();
+
+  const toggleMode = () => {
+    setCurrentMode(currentMode === "dark" ? "light" : "dark");
+  };
+
   const githubUrl = "https://github.com/BertoRamosM"
+
   return (
-    <FooterContainer>
-      <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-        <GithubLogo />
-      </a>
-      <p style={{ fontSize: "0.7rem" }}> © BertoRamosM</p>
-    </FooterContainer>
+    <>
+      <FooterContainer>
+        <a href={githubUrl} target="_blank" rel="noopener noreferrer">
+          <GithubLogo />
+        </a>
+        <p style={{ fontSize: "0.8rem" }}> © BertoRamosM</p>
+
+        <ModeIcon
+          src={currentMode === "light" ? sun : moon}
+          alt={currentMode === "light" ? "Sun Icon" : "Moon Icon"}
+          onClick={toggleMode}
+        />
+      </FooterContainer>
+    </>
   );
 }
  

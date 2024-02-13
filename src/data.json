@@ -1,6 +1,13 @@
 {
   "Icons": [
     {
+      "title": "Unicornicons",
+      "image": "src/assets/cards-assets/Unicornicons.png",
+      "category": "icons",
+      "license": "Free",
+      "link": "https://unicornicons.com/"
+    },
+    {
       "title": "Iconify",
       "image": "src/assets/cards-assets/Iconify.png",
       "category": "icons",
@@ -117,15 +124,57 @@
       "category": "illustrations",
       "license": "CO0",
       "link": "https://www.openpeeps.com/"
+    },
+    {
+      "title": "Transhumans",
+      "image": "src/assets/cards-assets/Transhumans.png",
+      "category": "illustrations",
+      "license": "CC0",
+      "link": "https://www.openpeeps.com/"
+    },
+    {
+      "title": "Open Doodles",
+      "image": "src/assets/cards-assets/Open Doodles.png",
+      "category": "illustrations",
+      "license": "CC0",
+      "link": "https://www.opendoodles.com/"
+    },
+    {
+      "title": "Illustration Kit",
+      "image": "src/assets/cards-assets/Illustration Kit.png",
+      "category": "illustrations",
+      "license": "Free",
+      "link": "https://illustrationkit.com/"
     }
   ],
   "Fonts": [
+    {
+      "title": "Font Share",
+      "image": "src/assets/cards-assets/Font Share.png",
+      "category": "fonts",
+      "license": "Font Share",
+      "link": "https://www.fontshare.com/"
+    },
     {
       "title": "Google Fonts",
       "image": "src/assets/cards-assets/Google Fonts.png",
       "category": "fonts",
       "license": "Google",
       "link": "https://fonts.google.com/"
+    },
+    {
+      "title": "Font Source",
+      "image": "src/assets/cards-assets/Font Source.png",
+      "category": "fonts",
+      "license": "Free",
+      "link": "https://fontsource.org/"
+    },
+    {
+      "title": "Typewolf",
+      "image": "src/assets/cards-assets/Typewolf.png",
+      "category": "fonts",
+      "license": "Typewolf",
+      "link": "https://www.typewolf.com/"
     }
   ],
   "Colors": [
@@ -135,7 +184,42 @@
       "category": "colors",
       "license": "Unknown",
       "link": "https://aicolors.co/"
-    }
+    },
+     {
+       "title": "Real Time Colors",
+       "image": "src/assets/cards-assets/Real Time Colors.png",
+       "category": "colors",
+       "license": "CC0",
+       "link": "https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Poppins-Poppins"
+     },
+      {
+        "title": "Grabient",
+        "image": "src/assets/cards-assets/Grabient.png",
+        "category": "colors",
+        "license": "Unfold",
+        "link": "https://www.grabient.com/"
+      },
+      {
+        "title": "Coolors",
+        "image": "src/assets/cards-assets/Coolors.png",
+        "category": "colors",
+        "license": "Fabrizio Bianchi",
+        "link": "https://coolors.co/"
+      },
+      {
+        "title": "Colors Selector",
+        "image": "src/assets/cards-assets/Color Selector.png",
+        "category": "colors",
+        "license": "Eugenie Garcia",
+        "link": "https://www.color-selector.com/"
+      },
+       {
+         "title": "Pigment",
+         "image": "src/assets/cards-assets/Pigment.png",
+         "category": "colors",
+         "license": "Shape Factory",
+         "link": "https://pigment.shapefactory.co/"
+       }
   ],
   "Videos": [
     {
