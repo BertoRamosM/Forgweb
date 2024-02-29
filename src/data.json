@@ -2,56 +2,56 @@
   "Icons": [
     {
       "title": "Unicornicons",
-      "image": "src/assets/cards-assets/Unicornicons.png",
+      "image": "../assets/cards-assets/Unicornicons.png",
       "category": "icons",
       "license": "Free",
       "link": "https://unicornicons.com/"
     },
     {
       "title": "Iconify",
-      "image": "src/assets/cards-assets/Iconify.png",
+      "image": "../assets/cards-assets/Iconify.png",
       "category": "icons",
       "license": "Apache",
       "link": "https://iconify.design/"
     },
     {
       "title": "Google icons",
-      "image": "src/assets/cards-assets/Google icons.png",
+      "image": "../assets/cards-assets/Google icons.png",
       "category": "icons",
       "license": "Google",
       "link": "https://fonts.google.com/icons"
     },
     {
       "title": "Hero Icons",
-      "image": "src/assets/cards-assets/Hero Icons.png",
+      "image": "../assets/cards-assets/Hero Icons.png",
       "category": "icons",
       "license": "Tailwind Labs",
       "link": "https://heroicons.com/"
     },
     {
       "title": "Tabler",
-      "image": "src/assets/cards-assets/Tabler.png",
+      "image": "../assets/cards-assets/Tabler.png",
       "category": "icons",
       "license": "Tabler",
       "link": "https://tablet.io/"
     },
     {
       "title": "Free Icons",
-      "image": "src/assets/cards-assets/Free Icons.png",
+      "image": "../assets/cards-assets/Free Icons.png",
       "category": "icons",
       "license": "Icons Designer",
       "link": "https://freeicons.io/"
     },
     {
       "title": "Flaticon",
-      "image": "src/assets/cards-assets/Flaticon.png",
+      "image": "../assets/cards-assets/Flaticon.png",
       "category": "icons",
       "license": "Flaticon",
       "link": "https://www.flaticon.com/free-icons/best"
     },
     {
       "title": "Simple Icons",
-      "image": "src/assets/cards-assets/Simple Icons.png",
+      "image": "../assets/cards-assets/Simple Icons.png",
       "category": "icons",
       "license": "Simple Icons",
       "link": "https://simpleicons.org/"
@@ -60,35 +60,35 @@
   "Photos": [
     {
       "title": "Pexels",
-      "image": "src/assets/cards-assets/Pexels.png",
+      "image": "../assets/cards-assets/Pexels.png",
       "category": "photos",
       "license": "CO0",
       "link": "https://www.pexels.com/"
     },
     {
       "title": "Pixabay",
-      "image": "src/assets/cards-assets/Pixabay.png",
+      "image": "../assets/cards-assets/Pixabay.png",
       "category": "photos",
       "license": "Pixabay",
       "link": "https://pixabay.com/es/"
     },
      {
        "title": "Barnimages",
-       "image": "src/assets/cards-assets/Barnimages.png",
+       "image": "../assets/cards-assets/Barnimages.png",
        "category": "photos",
        "license": "Barnimages",
        "link": "https://barnimages.com/"
      },
      {
        "title": "Unsplash",
-       "image": "src/assets/cards-assets/Unsplash.png",
+       "image": "../assets/cards-assets/Unsplash.png",
        "category": "photos",
        "license": "Unsplash",
        "link": "https://unsplash.com/"
      },
      {
        "title": "Picography",
-       "image": "src/assets/cards-assets/Picography.png",
+       "image": "../assets/cards-assets/Picography.png",
        "category": "photos",
        "license": "Picography",
        "link": "https://picography.co/"
@@ -97,21 +97,21 @@
   "Tools": [
     {
       "title": "Squoosh",
-      "image": "src/assets/cards-assets/Squoosh.png",
+      "image": "../assets/cards-assets/Squoosh.png",
       "category": "tools",
       "license": "Apache",
       "link": "https://squoosh.app/"
     },
     {
       "title": "NekoCalc",
-      "image": "src/assets/cards-assets/NekoCalc.png",
+      "image": "../assets/cards-assets/NekoCalc.png",
       "category": "tools",
       "license": "NekoCalc",
       "link": "https://nekocalc.com/px-to-rem-converter"
     },
     {
       "title": "RapidApi",
-      "image": "src/assets/cards-assets/RapidApi.png",
+      "image": "../assets/cards-assets/RapidApi.png",
       "category": "tools",
       "license": "RapidApi",
       "link": "https://rapidapi.com/collections"
@@ -120,28 +120,28 @@
   "Illustrations": [
     {
       "title": "Open Peeps",
-      "image": "src/assets/cards-assets/Open Peeps.png",
+      "image": "../assets/cards-assets/Open Peeps.png",
       "category": "illustrations",
       "license": "CO0",
       "link": "https://www.openpeeps.com/"
     },
     {
       "title": "Transhumans",
-      "image": "src/assets/cards-assets/Transhumans.png",
+      "image": "../assets/cards-assets/Transhumans.png",
       "category": "illustrations",
       "license": "CC0",
       "link": "https://www.openpeeps.com/"
     },
     {
       "title": "Open Doodles",
-      "image": "src/assets/cards-assets/Open Doodles.png",
+      "image": "../assets/cards-assets/Open Doodles.png",
       "category": "illustrations",
       "license": "CC0",
       "link": "https://www.opendoodles.com/"
     },
     {
       "title": "Illustration Kit",
-      "image": "src/assets/cards-assets/Illustration Kit.png",
+      "image": "../assets/cards-assets/Illustration Kit.png",
       "category": "illustrations",
       "license": "Free",
       "link": "https://illustrationkit.com/"
@@ -150,28 +150,28 @@
   "Fonts": [
     {
       "title": "Font Share",
-      "image": "src/assets/cards-assets/Font Share.png",
+      "image": "../assets/cards-assets/Font Share.png",
       "category": "fonts",
       "license": "Font Share",
       "link": "https://www.fontshare.com/"
     },
     {
       "title": "Google Fonts",
-      "image": "src/assets/cards-assets/Google Fonts.png",
+      "image": "../assets/cards-assets/Google Fonts.png",
       "category": "fonts",
       "license": "Google",
       "link": "https://fonts.google.com/"
     },
     {
       "title": "Font Source",
-      "image": "src/assets/cards-assets/Font Source.png",
+      "image": "../assets/cards-assets/Font Source.png",
       "category": "fonts",
       "license": "Free",
       "link": "https://fontsource.org/"
     },
     {
       "title": "Typewolf",
-      "image": "src/assets/cards-assets/Typewolf.png",
+      "image": "../assets/cards-assets/Typewolf.png",
       "category": "fonts",
       "license": "Typewolf",
       "link": "https://www.typewolf.com/"
@@ -180,42 +180,42 @@
   "Colors": [
     {
       "title": "Ai Colors",
-      "image": "src/assets/cards-assets/Ai Colors.png",
+      "image": "../assets/cards-assets/Ai Colors.png",
       "category": "colors",
       "license": "Unknown",
       "link": "https://aicolors.co/"
     },
      {
        "title": "Real Time Colors",
-       "image": "src/assets/cards-assets/Real Time Colors.png",
+       "image": "../assets/cards-assets/Real Time Colors.png",
        "category": "colors",
        "license": "CC0",
        "link": "https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Poppins-Poppins"
      },
       {
         "title": "Grabient",
-        "image": "src/assets/cards-assets/Grabient.png",
+        "image": "../assets/cards-assets/Grabient.png",
         "category": "colors",
         "license": "Unfold",
         "link": "https://www.grabient.com/"
       },
       {
         "title": "Coolors",
-        "image": "src/assets/cards-assets/Coolors.png",
+        "image": "../assets/cards-assets/Coolors.png",
         "category": "colors",
         "license": "Fabrizio Bianchi",
         "link": "https://coolors.co/"
       },
       {
         "title": "Colors Selector",
-        "image": "src/assets/cards-assets/Color Selector.png",
+        "image": "../assets/cards-assets/Color Selector.png",
         "category": "colors",
         "license": "Eugenie Garcia",
         "link": "https://www.color-selector.com/"
       },
        {
          "title": "Pigment",
-         "image": "src/assets/cards-assets/Pigment.png",
+         "image": "../assets/cards-assets/Pigment.png",
          "category": "colors",
          "license": "Shape Factory",
          "link": "https://pigment.shapefactory.co/"
@@ -224,32 +224,81 @@
   "Videos": [
     {
       "title": "Videezy",
-      "image": "src/assets/cards-assets/Videezy.png",
+      "image": "../assets/cards-assets/Videezy.png",
       "category": "videos",
       "license": "videezy",
       "link": "https://es.videezy.com/"
+    },
+    {
+      "title": "Pixabay",
+      "image": "../assets/cards-assets/Pixabay.png",
+      "category": "videos",
+      "license": "Pixabay",
+      "link": "https://es.videezy.com/"
+    },
+    {
+      "title": "Mazwai",
+      "image": "../assets/cards-assets/Mazwai.png",
+      "category": "videos",
+      "license": "Free",
+      "link": "https://mazwai.com/"
+    },
+    {
+      "title": "Pexelsvid",
+      "image": "../assets/cards-assets/Pexelsvid.png",
+      "category": "videos",
+      "license": "Pexels",
+      "link": "https://www.pexels.com/videos/"
+    },
+    {
+      "title": "Coverr",
+      "image": "../assets/cards-assets/Coverr.png",
+      "category": "videos",
+      "license": "Coverr",
+      "link": "https://coverr.co/"
     }
   ],
   "Libraries": [
     {
       "title": "useHooks",
-      "image": "src/assets/cards-assets/useHooks.png",
+      "image": "../assets/cards-assets/useHooks.png",
       "category": "libraries",
       "license": "ui.dev",
       "links": "https://usehooks.com/"
     },
     {
       "title": "Tailwind",
-      "image": "src/assets/cards-assets/Tailwind.png",
+      "image": "../assets/cards-assets/Tailwind.png",
       "category": "libraries",
       "license": "Tailwind Labs",
       "link": "https://tailwindcss.com/"
-    }
+    },
+     {
+       "title": "Auto Animate",
+       "image": "../assets/cards-assets/Auto Animate.png",
+       "category": "libraries",
+       "license": "MIT",
+       "link": "https://auto-animate.formkit.com/"
+     },
+     {
+       "title": "Locomotive Scroll",
+       "image": "../assets/cards-assets/Locomotive Scroll.png",
+       "category": "libraries",
+       "license": "Pangram",
+       "link": "https://locomotivemtl.github.io/locomotive-scroll/"
+     },
+     {
+       "title": "React Magic Motion",
+       "image": "../assets/cards-assets/React Magic Motion.png",
+       "category": "libraries",
+       "license": "MIT",
+       "link": "https://www.react-magic-motion.com/"
+     }
   ],
   "Blogs": [
     {
       "title": "web dev",
-      "image": "src/assets/cards-assets/web dev.png",
+      "image": "../assets/cards-assets/web dev.png",
       "category": "blogs",
       "license": "Chrome team",
       "link": "https://web.dev/blog"
@@ -258,7 +307,7 @@
   "Backgrounds": [
     {
       "title": "Pattern Generator",
-      "image": "src/assets/cards-assets/Pattern Generator.png",
+      "image": "../assets/cards-assets/Pattern Generator.png",
       "category": "background",
       "license": "Doodad",
       "link": "https://doodad.dev/pattern-generator/"
@@ -267,7 +316,7 @@
   "UIcollections": [
     {
       "title": "Dark Design",
-      "image": "src/assets/cards-assets/Dark Design.png",
+      "image": "../assets/cards-assets/Dark Design.png",
       "category": "UI",
       "license": "Dark",
       "link": "https://www.dark.design/"
@@ -276,7 +325,7 @@
   "Components": [
     {
       "title": "Next UI",
-      "image": "src/assets/cards-assets/Next UI.png",
+      "image": "../assets/cards-assets/Next UI.png",
       "category": "components",
       "license": "MIT",
       "link": "https://nextui.org/"
@@ -285,7 +334,7 @@
   "Cheatsheets": [
     {
       "title": "Flexbox CS",
-      "image": "src/assets/cards-assets/Flexbox CS.png",
+      "image": "../assets/cards-assets/Flexbox CS.png",
       "category": "cheatsheets",
       "license": "@simonpaix",
       "link":"https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fvd9dc7wfk9471.png"
@@ -294,7 +343,7 @@
   "Tutorials": [
     {
       "title": "NetNinja",
-      "image": "src/assets/cards-assets/NetNinja.png",
+      "image": "../assets/cards-assets/NetNinja.png",
       "category": "Tutorials",
       "license": "Net Ninja",
       "link": "https://netninja.dev/"

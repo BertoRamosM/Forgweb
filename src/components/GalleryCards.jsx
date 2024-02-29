@@ -36,7 +36,6 @@ const CardImg = styled.img`
   border-radius: 10px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-
   object-fit: cover;
 `;
 

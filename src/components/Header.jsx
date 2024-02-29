@@ -5,20 +5,20 @@ import { useAppContext } from "../Context/CurrentCategory";
 import { useColorContext } from "../Context/ColorMode";
 
 //icons
-import BackgroundsIcon from "../assets/header-assets/Backgrounds.svg";
-import BlogsIcon from "../assets/header-assets/Blogs.svg";
-import ColorsIcon from "../assets/header-assets/Colors.svg";
-import ComponentsIcon from "../assets/header-assets/Components.svg";
-import FontsIcon from "../assets/header-assets/Fonts.svg";
-import IconsIcon from "../assets/header-assets/Icons.svg";
-import IllustrationsIcon from "../assets/header-assets/Illustrations.svg";
-import LibrariesIcon from "../assets/header-assets/Libraries.svg";
-import PhotosIcon from "../assets/header-assets/Photos.svg";
-import ToolsIcon from "../assets/header-assets/Tools.svg";
-import UIcollectionsIcon from "../assets/header-assets/UIcollections.svg";
-import VideosIcon from "../assets/header-assets/Videos.svg";
-import CheatsheetsIcon from "../assets/header-assets/Cheatsheets.svg";
-import TutorialsIcon from "../assets/header-assets/Tutorials.svg";
+import BackgroundsIcon from "/public/assets/header-assets/Backgrounds.svg";
+import BlogsIcon from "../../public/assets/header-assets/Blogs.svg";
+import ColorsIcon from "../../public/assets/header-assets/Colors.svg";
+import ComponentsIcon from "../../public/assets/header-assets/Components.svg";
+import FontsIcon from "../../public/assets/header-assets/Fonts.svg";
+import IconsIcon from "../../public/assets/header-assets/Icons.svg";
+import IllustrationsIcon from "../../public/assets/header-assets/Illustrations.svg";
+import LibrariesIcon from "../../public/assets/header-assets/Libraries.svg";
+import PhotosIcon from "../../public/assets/header-assets/Photos.svg";
+import ToolsIcon from "../../public/assets/header-assets/Tools.svg";
+import UIcollectionsIcon from "../../public/assets/header-assets/UIcollections.svg";
+import VideosIcon from "../../public/assets/header-assets/Videos.svg";
+import CheatsheetsIcon from "../../public/assets/header-assets/Cheatsheets.svg";
+import TutorialsIcon from "../../public/assets/header-assets/Tutorials.svg";
 
 const HeaderContainer = styled.div`
   position: fixed;
@@ -95,6 +95,7 @@ const Header = () => {
   };
 
   const categories = Object.keys(data);
+
   const colors = [
     "#0000FF",
     "#FF0000",
@@ -111,6 +112,7 @@ const Header = () => {
   ];
 
   const uniqueCategories = Array.from(new Set(categories));
+
 
   return (
     <HeaderContainer>

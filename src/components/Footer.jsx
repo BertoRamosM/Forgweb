@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import github from "../assets/footer-assets/github-logo.svg";
+import github from "../../public/assets/footer-assets/github-logo.svg";
 import { useColorContext } from "../Context/ColorMode";
 
-import sun from "../assets/footer-assets/sun.svg"
-import moon from "../assets/footer-assets/moon.svg";
+import sun from "../../public/assets/footer-assets/sun.svg";
+import moon from "../../public/assets/footer-assets/moon.svg";
 
 const FooterContainer = styled.div`
   position: fixed;
