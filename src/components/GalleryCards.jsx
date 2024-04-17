@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { useAppContext } from "../Context/CurrentCategory";
-import { useColorContext } from "../Context/ColorMode";
+import { useSelector } from "react-redux";
 
 
 const Card = styled.div`
@@ -63,10 +62,8 @@ const License = styled.div`
 
 
 const GalleryCard = ({ data }) => {
-  const [currentCat] = useAppContext();
 
-      const [currentMode] = useColorContext();
-
+  const currentCat = useSelector(store => store.category.currentCat)
 
   const itemsForCurrentCat = data[currentCat] || [];
 

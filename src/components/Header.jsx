@@ -3,6 +3,8 @@ import styled from "styled-components";
 import data from "../data.json";
 import { useAppContext } from "../Context/CurrentCategory";
 import { useColorContext } from "../Context/ColorMode";
+import { setCurrentCat } from "../redux/CategorySlice";
+import { useSelector } from "react-redux";
 
 //icons
 import BackgroundsIcon from "/public/assets/header-assets/Backgrounds.svg";
@@ -19,6 +21,7 @@ import UIcollectionsIcon from "../../public/assets/header-assets/UIcollections.s
 import VideosIcon from "../../public/assets/header-assets/Videos.svg";
 import CheatsheetsIcon from "../../public/assets/header-assets/Cheatsheets.svg";
 import TutorialsIcon from "../../public/assets/header-assets/Tutorials.svg";
+import { useDispatch } from "react-redux";
 
 const HeaderContainer = styled.div`
   position: fixed;
@@ -87,11 +90,11 @@ const Current = styled.div`
 `;
 
 const Header = () => {
-  const [currentCat, setCurrentCat] = useAppContext();
-  const [currentMode] = useColorContext();
+  const dispatch = useDispatch();
+  const currentCat = useSelector((state) => state.category.currentCat); // 
 
   const handleButtonClick = (category) => {
-    setCurrentCat(category);
+    dispatch(setCurrentCat(category));
   };
 
   const categories = Object.keys(data);
@@ -112,7 +115,6 @@ const Header = () => {
   ];
 
   const uniqueCategories = Array.from(new Set(categories));
-
 
   return (
     <HeaderContainer>
