@@ -24,8 +24,20 @@ const GalleryContainer = styled.div`
     padding-top: 25%;
   }
 
+  @media (max-width: 980px) {
+    padding-top: 30%;
+  }
+
+  @media (max-width: 950px) {
+    padding-top: 30%;
+  }
+
   @media (max-width: 900px) {
     padding-top: 30%;
+  }
+
+  @media (max-width: 850px) {
+    padding-top: 40%;
   }
 
   @media (max-width: 800px) {
@@ -38,7 +50,7 @@ const GalleryContainer = styled.div`
     padding-top: 30%;
   }
 
-  @media (max-width: 660px) {
+  @media (max-width: 680px) {
     padding-top: 40%;
   }
   @media (max-width: 600px) {
@@ -48,6 +60,9 @@ const GalleryContainer = styled.div`
     padding-top: 40%;
   }
 
+  @media (max-width: 530px) {
+    padding-top: 50%;
+  }
   @media (max-width: 500px) {
     padding-top: 70%;
   }
