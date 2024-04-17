@@ -381,6 +381,13 @@
       "category": "UI",
       "license": "Dark",
       "link": "https://www.dark.design/"
+    },
+    {
+      "title": "ThreeJS",
+      "image": "../assets/cards-assets/ThreeJS.png",
+      "category": "components",
+      "license": "mrdoob",
+      "link": "https://threejs.org/"
     }
   ],
   "Components": [
@@ -390,6 +397,13 @@
       "category": "components",
       "license": "MIT",
       "link": "https://nextui.org/"
+    },
+    {
+      "title": "Material UI",
+      "image": "../assets/cards-assets/Material UI.png",
+      "category": "components",
+      "license": "MUI",
+      "link": "https://mui.com/"
     }
   ],
   "Cheatsheets": [
@@ -399,6 +413,20 @@
       "category": "cheatsheets",
       "license": "@simonpaix",
       "link":"https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fvd9dc7wfk9471.png"
+    },
+     {
+      "title": "Grid CS",
+      "image": "../assets/cards-assets/Grid CSS.png",
+      "category": "cheatsheets",
+      "license": "@simonpaix",
+      "link":"https://res.cloudinary.com/practicaldev/image/fetch/s--X30jomsg--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://github.com/simonpaix/images/blob/main/blog/LearnPine_Grid_CheatSheet.png%3Fraw%3Dtrue"
+    },
+     {
+      "title": "She Codes",
+      "image": "../assets/cards-assets/She Codes.png",
+      "category": "cheatsheets",
+      "license": "She Codes",
+      "link":"https://cheatsheets.shecodes.io/"
     }
   ],
   "Tutorials": [
@@ -408,6 +436,27 @@
       "category": "Tutorials",
       "license": "Net Ninja",
       "link": "https://netninja.dev/"
+    },
+    {
+      "title": " Coding Class Room",
+      "image": "../assets/cards-assets/Coding Class Room.png",
+      "category": "Tutorials",
+      "license": "CCR",
+      "link": "https://www.youtube.com/@TheCodingClassroom-rk"
+    },
+    {
+      "title": "Programming w/ Mosh",
+      "image": "../assets/cards-assets/Mosh.png",
+      "category": "Tutorials",
+      "license": "Mosh",
+      "link": "https://www.youtube.com/@programmingwithmosh"
+    },
+    {
+      "title": "FreeCodeCamp",
+      "image": "../assets/cards-assets/FreeCodeCamp.png",
+      "category": "Tutorials",
+      "license": "FreeCodeCamp",
+      "link": "https://www.youtube.com/@freecodecamp"
     }
   ]
 }

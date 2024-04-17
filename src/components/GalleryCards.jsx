@@ -15,9 +15,10 @@ const Card = styled.div`
   cursor: pointer;
   transition: transform 0.2s ease;
   border: 3px solid transparent; 
+  border-radius: 10px;
   &:hover {
-    transform: scale(1.05);
-    border-color: crimson; 
+    transform: scale(1.04);
+    border-color: blue; 
     text-decoration: underline;
   }
   box-shadow: ${(props) =>
@@ -32,7 +33,7 @@ const CardImg = styled.img`
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 10px;
+  border-radius: 8px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   object-fit: cover;
