@@ -1,11 +1,7 @@
-import { useState } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import data from "../data.json";
-import { useAppContext } from "../Context/CurrentCategory";
-import { useColorContext } from "../Context/ColorMode";
 import { setCurrentCat } from "../redux/CategorySlice";
 import { useSelector } from "react-redux";
-
 //icons
 import BackgroundsIcon from "/public/assets/header-assets/Backgrounds.svg";
 import BlogsIcon from "../../public/assets/header-assets/Blogs.svg";
@@ -22,13 +18,10 @@ import VideosIcon from "../../public/assets/header-assets/Videos.svg";
 import CheatsheetsIcon from "../../public/assets/header-assets/Cheatsheets.svg";
 import TutorialsIcon from "../../public/assets/header-assets/Tutorials.svg";
 import { useDispatch } from "react-redux";
-import forgeImage from "../forge.jpg"
 
 const HeaderContainer = styled.div`
   position: fixed;
-  background-image: url(${forgeImage});
-  background-size: cover; 
-  background-position: center; 
+  background-color: var(--primary-color);
   top: 0;
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +32,11 @@ const HeaderContainer = styled.div`
   padding-bottom: 2rem;
   padding-top: 2rem;
   z-index: 99;
+
+  @media (max-width: 800px) {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
 `;
 
 const Button = styled.button`
@@ -59,6 +57,13 @@ const Button = styled.button`
     transform: scale(1.1);
     text-decoration: underline;
   }
+
+  @media (max-width: 800px) {
+    font-size: 1em;
+    min-width: 10rem;
+    height: 1.5rem;
+    margin: 0.3rem;
+  }
 `;
 
 const Icons = styled.img`
@@ -68,6 +73,12 @@ const Icons = styled.img`
   color: white;
   filter: invert(98%) sepia(79%) saturate(0%) hue-rotate(86deg) brightness(100%)
     contrast(119%);
+
+  @media (max-width: 800px) {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+  }
 `;
 
 const SmallIcon = styled.img`
@@ -76,6 +87,12 @@ const SmallIcon = styled.img`
       ? "invert(100%) sepia(79%) saturate(100%) hue-rotate(100deg) brightness(500%) contrast(100%)"
       : "invert(100%) sepia(100%) saturate(100%) hue-rotate(86deg) brightness(50%) contrast(100%)"};
   padding-right: 1rem;
+
+  @media (max-width: 800px) {
+    padding-right: 0.5rem;
+  }
+
+  
 `;
 
 const Current = styled.div`
@@ -90,11 +107,16 @@ const Current = styled.div`
   height: 2rem;
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
+
+  @media (max-width: 800px) {
+    height: 1.5rem;
+    bottom: -15px;
+  }
 `;
 
 const Header = () => {
   const dispatch = useDispatch();
-  const currentCat = useSelector((state) => state.category.currentCat); // 
+  const currentCat = useSelector((state) => state.category.currentCat); //
 
   const handleButtonClick = (category) => {
     dispatch(setCurrentCat(category));
@@ -146,7 +168,6 @@ const Header = () => {
     </HeaderContainer>
   );
 };
-
 
 const getIcon = (category) => {
   switch (category) {

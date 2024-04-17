@@ -15,6 +15,48 @@ const GalleryContainer = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
   overflow: auto;
   background-color: var(--primary-color);
+
+  @media (max-width: 1300px) {
+    padding-top: 20%;
+  }
+
+  @media (max-width: 1050px) {
+    padding-top: 25%;
+  }
+
+  @media (max-width: 900px) {
+    padding-top: 30%;
+  }
+
+  @media (max-width: 800px) {
+    padding-top: 30%;
+  }
+  @media (max-width: 720px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30%;
+  }
+
+  @media (max-width: 660px) {
+    padding-top: 40%;
+  }
+  @media (max-width: 600px) {
+    padding-top: 40%;
+  }
+  @media (max-width: 550px) {
+    padding-top: 40%;
+  }
+
+  @media (max-width: 500px) {
+    padding-top: 70%;
+  }
+  @media (max-width: 400px) {
+    padding-top: 80%;
+  }
+  @media (max-width: 350px) {
+    padding-top: 90%;
+  }
 `;
 
 

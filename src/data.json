@@ -346,6 +346,32 @@
       "category": "background",
       "license": "Doodad",
       "link": "https://doodad.dev/pattern-generator/"
+    },
+    {
+      "title": "UV Canvas",
+      "image": "../assets/cards-assets/UV Canvas.png",
+      "category": "background",
+      "license": "Latent Cat",
+      "link": "https://uvcanvas.com/"
+    },{
+      "title": "Svg Backgrounds",
+      "image": "../assets/cards-assets/Svg Backgrounds.png",
+      "category": "background",
+      "license": "Matt Visiwig",
+      "link": "https://www.svgbackgrounds.com/"
+    },{
+      "title": "Super Designer",
+      "image": "../assets/cards-assets/Super Designer.png",
+      "category": "background",
+      "license": "Dilpreet",
+      "link": "https://superdesigner.co/"
+    },
+    {
+      "title": "Svg Patterns",
+      "image": "../assets/cards-assets/Svg Patterns.png",
+      "category": "background",
+      "license": "Amber Creative",
+      "link": "https://nucleoapp.com/svg-patterns"
     }
   ],
   "UIcollections": [
