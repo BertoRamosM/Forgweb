@@ -14,8 +14,10 @@ const Card = styled.div`
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.2s ease;
+  border: 3px solid transparent; 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    border-color: crimson; 
     text-decoration: underline;
   }
   box-shadow: ${(props) =>

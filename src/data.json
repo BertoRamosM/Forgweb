@@ -302,7 +302,42 @@
       "category": "blogs",
       "license": "Chrome team",
       "link": "https://web.dev/blog"
-    }
+    },
+    {
+      "title": "ModernCss",
+      "image": "../assets/cards-assets/ModernCss.png",
+      "category": "blogs",
+      "license": "Stephanie Eckles",
+      "link": "https://moderncss.dev/"
+    },
+    {
+      "title": "Daily Dev",
+      "image": "../assets/cards-assets/daily dev.png",
+      "category": "blogs",
+      "license": "Company’s IPR",
+      "link": "https://daily.dev/?r=0"
+    },
+    {
+      "title": "Kent C. Dodds",
+      "image": "../assets/cards-assets/KentCDodds.png",
+      "category": "blogs",
+      "license": "Kent C. Dodds",
+      "link": "https://kentcdodds.com/"
+    },
+     {
+       "title": "Josh Comeau",
+       "image": "../assets/cards-assets/Josh Comeau.png",
+       "category": "blogs",
+       "license": "Josh Comeau",
+       "link": "https://www.joshwcomeau.com/"
+     },
+      {
+        "title": "LeeRob",
+        "image": "../assets/cards-assets/LeeRob.png",
+        "category": "blogs",
+        "license": "LeeRob",
+        "link": "https://leerob.io/"
+      }
   ],
   "Backgrounds": [
     {

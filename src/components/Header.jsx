@@ -22,10 +22,13 @@ import VideosIcon from "../../public/assets/header-assets/Videos.svg";
 import CheatsheetsIcon from "../../public/assets/header-assets/Cheatsheets.svg";
 import TutorialsIcon from "../../public/assets/header-assets/Tutorials.svg";
 import { useDispatch } from "react-redux";
+import forgeImage from "../forge.jpg"
 
 const HeaderContainer = styled.div`
   position: fixed;
-  background-color: var(--primary-color);
+  background-image: url(${forgeImage});
+  background-size: cover; 
+  background-position: center; 
   top: 0;
   display: flex;
   flex-wrap: wrap;
