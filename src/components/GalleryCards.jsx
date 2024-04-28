@@ -9,7 +9,7 @@ const Card = styled.div`
   flex-direction: column;
   background-color: var(--secondary-color);
   height: 20rem;
-  width: 21rem;
+  width: 20rem;
   position: relative;
   border-radius: 10px;
   cursor: pointer;
