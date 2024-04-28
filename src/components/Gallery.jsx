@@ -4,7 +4,7 @@ import GalleryCard from "./GalleryCards";
 
 
 const GalleryContainer = styled.div`
-  width: 95%;
+  width: 99vw;
   height: auto;
   padding-top: 15%;
   padding-left: 1%;
