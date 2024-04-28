@@ -42,7 +42,10 @@ const CardImg = styled.img`
 `;
 
 const Title = styled.h2`
-  color: var(--secondary-color);
+  color: ${(props) =>
+    props.currentMode === "light"
+      ? "black"
+      : "white"};
   position: absolute;
   bottom: 0;
   left: 0;
