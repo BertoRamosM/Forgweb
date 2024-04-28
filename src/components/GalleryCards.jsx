@@ -39,6 +39,7 @@ const CardImg = styled.img`
   object-fit: cover;
   opacity: ${(props) => (props.loaded ? 1 : 0)};
   transition: opacity 0.3s ease;
+  background-color: black;
 `;
 
 const Title = styled.h2`
