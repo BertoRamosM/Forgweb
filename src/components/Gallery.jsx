@@ -4,12 +4,14 @@ import GalleryCard from "./GalleryCards";
 
 
 const GalleryContainer = styled.div`
-  width: 100%;
+  width: 98vw;
   height: auto;
   padding-top: 15%;
   padding-left: 1%;
   padding-bottom: 10%;
   display: grid;
+  justify-content: center;
+  align-items:center;
   gap: 2rem;
   grid-auto-rows: auto;
   grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
@@ -21,7 +23,7 @@ const GalleryContainer = styled.div`
   }
 
   @media (max-width: 1050px) {
-    padding-top: 25%;
+    padding-top: 27%;
   }
 
   @media (max-width: 980px) {
@@ -47,7 +49,7 @@ const GalleryContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30%;
+    padding-top: 32%;
   }
 
   @media (max-width: 680px) {
@@ -61,7 +63,7 @@ const GalleryContainer = styled.div`
   }
 
   @media (max-width: 530px) {
-    padding-top: 50%;
+    padding-top: 55%;
   }
   @media (max-width: 500px) {
     padding-top: 70%;

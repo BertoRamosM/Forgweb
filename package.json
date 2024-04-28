@@ -1,5 +1,5 @@
 {
-  "name": "toolsadd",
+  "name": "forgweb",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -34,8 +34,11 @@
   "main": "vite.config.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BertoRamosM/Toolsy.git"
+    "url": "git+https://github.com/BertoRamosM/Toolsy.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BertoRamosM/Toolsy/issues"
+  }
 }
