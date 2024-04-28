@@ -1,6 +1,5 @@
 import styled from "styled-components";
-/* import githubIcon from "../../public/assets/footer-assets/github-logo.svg";
- */
+
 import { useColorContext } from "../Context/ColorMode";
 
 import sun from "../../public/assets/footer-assets/sun.svg";
@@ -18,17 +17,7 @@ const FooterContainer = styled.div`
   border-top: 1px rgba(255, 255, 255, 1) solid;
 `;
 
-const GithubLogo = styled.div`
-  width: 1rem;
-  height: 1rem;
-  background-image: url(${github});
-  background-size: contain;
-  background-color: rgba(255, 255, 255, 1);
-  cursor: pointer;
-  margin-right: 2rem;
-  border-radius: 50%;
-  padding: 0.2rem;
-`;
+
 
 const ModeIcon = styled.img`
   cursor: pointer;
