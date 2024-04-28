@@ -12,7 +12,7 @@ const GalleryContainer = styled.div`
   display: grid;
   gap: 2rem;
   grid-auto-rows: auto;
-  grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   overflow: auto;
   background-color: var(--primary-color);
 

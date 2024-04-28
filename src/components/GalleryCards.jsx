@@ -7,18 +7,18 @@ const Card = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: var(--secondary-color);
   height: 20rem;
   width: 20rem;
   position: relative;
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.2s ease;
-  border: 3px solid transparent; 
+  border: 3px solid transparent;
   border-radius: 10px;
+  background-color: black;
   &:hover {
     transform: scale(1.04);
-    border-color: blue; 
+    border-color: blue;
     text-decoration: underline;
   }
   box-shadow: ${(props) =>
