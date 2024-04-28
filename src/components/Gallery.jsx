@@ -7,7 +7,7 @@ const GalleryContainer = styled.div`
   width: 100%;
   height: auto;
   padding-top: 15%;
-  padding-left: 1%;
+  
   padding-bottom: 10%;
   display: grid;
   gap: 1rem;
