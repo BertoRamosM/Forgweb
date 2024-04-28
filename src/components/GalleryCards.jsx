@@ -29,7 +29,7 @@ const Card = styled.div`
 
 const CardImg = styled.img`
   height: 15rem;
-  width: 21rem;
+  width: 20rem;
   position: absolute;
   top: 0;
   left: 0;
