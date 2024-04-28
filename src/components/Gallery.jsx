@@ -4,17 +4,15 @@ import GalleryCard from "./GalleryCards";
 
 
 const GalleryContainer = styled.div`
-  width: 100%;
+  width: calc(100vw - 2%); 
   height: auto;
   padding-top: 15%;
-  
+  padding-left: 1%;
   padding-bottom: 10%;
   display: grid;
   gap: 1rem;
   grid-auto-rows: auto;
   grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
-  overflowx: hidden;
-  overflow-y: auto;
   background-color: var(--primary-color);
 
   @media (max-width: 1300px) {
