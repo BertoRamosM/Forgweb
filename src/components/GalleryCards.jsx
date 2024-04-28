@@ -43,7 +43,7 @@ const CardImg = styled.img`
 `;
 
 const Title = styled.h2`
-  color: var(--primary-color);
+  color: blue;
   position: absolute;
   bottom: 0;
   left: 0;
