@@ -8,7 +8,7 @@ const Card = styled.div`
   align-items: center;
   flex-direction: column;
   height: 20rem;
-  width: 20rem;
+  width: 21rem;
   position: relative;
   border-radius: 10px;
   cursor: pointer;
@@ -29,7 +29,7 @@ const Card = styled.div`
 
 const CardImg = styled.img`
   height: 15rem;
-  width: 20rem;
+  width: 21rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -43,7 +43,7 @@ const CardImg = styled.img`
 `;
 
 const Title = styled.h2`
-  color: blue;
+  color: var(--secondary-color);
   position: absolute;
   bottom: 0;
   left: 0;
