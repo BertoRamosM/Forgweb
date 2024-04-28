@@ -20,12 +20,13 @@ import TutorialsIcon from "../../public/assets/header-assets/Tutorials.svg";
 import { useDispatch } from "react-redux";
 
 const HeaderContainer = styled.div`
+  width: 99%;
   position: fixed;
   background-color: var(--primary-color);
   top: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  
   min-height: auto;
   border-bottom: 3px solid var(--secondary-color);
   justify-content: center;

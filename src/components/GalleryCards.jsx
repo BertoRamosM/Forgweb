@@ -7,18 +7,18 @@ const Card = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: var(--secondary-color);
   height: 20rem;
   width: 21rem;
   position: relative;
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.2s ease;
-  border: 3px solid transparent;
+  border: 3px solid transparent; 
   border-radius: 10px;
-  background-color: black;
   &:hover {
     transform: scale(1.04);
-    border-color: blue;
+    border-color: blue; 
     text-decoration: underline;
   }
   box-shadow: ${(props) =>
@@ -39,7 +39,6 @@ const CardImg = styled.img`
   object-fit: cover;
   opacity: ${(props) => (props.loaded ? 1 : 0)};
   transition: opacity 0.3s ease;
-  background-color: black;
 `;
 
 const Title = styled.h2`

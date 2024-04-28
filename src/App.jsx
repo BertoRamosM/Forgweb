@@ -6,7 +6,6 @@ import GlobalStyles from "./GlobalStyle";
 import { ColorProvider } from "./Context/ColorMode";
 
 const AppContainer = styled.div`
-max-width: 100vw;
   display: flex;
   font-family: "Roboto", sans-serif;
 `;
