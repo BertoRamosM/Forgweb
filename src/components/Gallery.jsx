@@ -10,7 +10,7 @@ const GalleryContainer = styled.div`
   padding-left: 1%;
   padding-bottom: 10%;
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
   grid-auto-rows: auto;
   grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
   overflow: hidden;
